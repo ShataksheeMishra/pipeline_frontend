@@ -1,22 +1,15 @@
-/* Center the sign-up form */
-body, html {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-   
-  background-color:rgb(211, 232, 179);
-}
+/* Specific styles for Sign Up page */
+
+
 .signup-container {
   width: 300px;
   margin: 50px auto;
   padding: 20px;
-  
-text-align: center;
-box-shadow: 0 -4px 15px rgb(101, 99, 99),0 -6px 30px rgb(165, 158, 158),0 -8px 60px rgb(86, 83, 83);
-border-radius:30px ;
-  
- 
+  text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  background-color: #6e4a6f;
+  color:white
 }
 
 /* Heading */

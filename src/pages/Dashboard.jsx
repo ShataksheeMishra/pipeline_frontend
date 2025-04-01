@@ -4,9 +4,9 @@ import DashboardUI from "../components/DashboardUI";
 
 const Dashboard = () => {
   const [userInfo, setUserInfo] = useState({
-    name: "John Doe",
-    email: "john@example.com",
-    role: "Admin",
+    name: "Shatakshee Mishra",
+    email: "shatakshee@gmail.com",
+    // role: "Admin",
   });
   const [pipelines, setPipelines] = useState([]);
   const [currentPipeline, setCurrentPipeline] = useState(null);

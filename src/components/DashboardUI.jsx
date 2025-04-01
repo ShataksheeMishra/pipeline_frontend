@@ -15,8 +15,9 @@ const DashboardUI = ({
         <div className="user-info">
           <h3>User Info</h3>
           <p><strong>Name:</strong> {userInfo.name}</p>
+          <p> </p>
           <p><strong>Email:</strong> {userInfo.email}</p>
-          <p><strong>Role:</strong> {userInfo.role}</p>
+          {/* <p><strong>Role:</strong> {userInfo.role}</p> */}
         </div>
       </div>
       <div className="main-content">
