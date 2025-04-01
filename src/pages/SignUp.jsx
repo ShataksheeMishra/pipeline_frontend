@@ -14,7 +14,7 @@ const SignUp = () => {
     input.preventDefault();
     localStorage.setItem("user", JSON.stringify(user)); // Save user locally
     alert("Signup Successful!");
-    navigate("/login"); // Redirect to login page
+    navigate("/dashboard"); // Redirect to login page
   };
 
   return <SignUpUI handleSubmit={handleSubmit} handleChange={handleChange} />;

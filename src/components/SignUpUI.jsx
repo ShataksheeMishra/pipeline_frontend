@@ -4,7 +4,8 @@ const SignUpUI = ({ handleSubmit, handleChange }) => (
   <div className="signup-container">
     <h2>Sign Up</h2>
     <form onSubmit={handleSubmit}>
-      <input type="text" name="name" placeholder="Name" onChange={handleChange} required />
+      <input type="text" name="firstname" placeholder="First Name" onChange={handleChange} required />
+      <input type="text" name="lastname" placeholder="Last Name" onChange={handleChange} required />
       <input type="email" name="email" placeholder="Email" onChange={handleChange} required />
       <input type="password" name="password" placeholder="Password" onChange={handleChange} required />
       <button type="submit">Sign Up</button>
